@@ -1,0 +1,6 @@
+@DogInASweater.WebStarter_HostAddress = http://localhost:5063
+
+GET {{DogInASweater.WebStarter_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

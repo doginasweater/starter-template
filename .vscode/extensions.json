@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "christian-kohler.path-intellisense",
+    "ms-dotnettools.csharp"
+  ]
+}
