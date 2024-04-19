@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Description>Dog In a Sweater Opinionated Web Starter</Description>
+        <Authors>Kevin Bernfeld</Authors>
+        <PackageProjectUrl>https://github.com/doginasweater/starter-template</PackageProjectUrl>
+        <PackageLicense>MIT</PackageLicense>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/doginasweater/starter-template.git</RepositoryUrl>
+        <PackageTags>template;csharp;opinionated</PackageTags>
+        <NeutralLanguage>en-US</NeutralLanguage>
+        <PackageType>Template</PackageType>
+        <NoBuild>true</NoBuild>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <!-- https://github.com/dotnet/templating/issues/2350#issuecomment-610431461 -->
+        <NoDefaultExcludes>true</NoDefaultExcludes>
+        <PackageVersion>1.0.0.0</PackageVersion>
+        <PackageId>DogInASweater.WebStarter</PackageId>
+    </PropertyGroup>
+    <ItemGroup>
+        <Content Include="Content/**/*.*">
+            <PackagePath>Content\</PackagePath>
+        </Content>
+        <None Include="README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+</Project>
